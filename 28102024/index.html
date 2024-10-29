@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>28102024</title>
+</head>
+<body>
+<script>
+    switch (new Date().getDay()) {
+        case 0:
+            document.write("<h1>É pá hoje já é Domingo!</h1>");
+            break;
+        case 1:
+            document.write("<h1>Que seca! Hoje é Segunda-feira!</h1>");
+            break;
+        case 2:
+            document.write("<h1>Hum! Ainda é Terça-feira!</h1>");
+            break;
+        case 3:
+            document.write("<h1>Hoje é Quarta-feira!</h1>");
+            break;
+        case 4:
+            document.write("<h1>Já é Quinta-Feira!</h1>");
+            break;
+        case 5:
+            document.write("<h1>É Sexta-feira! Suei a Semana inteira!</h1>");
+            break;
+        case 6:
+            document.write("<h1>Iuuuuupy! Finalmente é Sábado!</h1>");
+    }
+
+// 1. Verificar se um número é par ou ímpar
+let numero = prompt("Digite um número:");
+if (numero % 2 === 0) {
+    document.write("O número " + numero + " é par.<br>");
+} else {
+    document.write("O número " + numero + " é ímpar.<br>");
+}
+
+// 2. Verificar a idade para votar
+let idade = prompt("Digite sua idade:");
+if (idade < 18) {
+    document.write("Muito novo para votar.<br>");
+} else {
+    document.write("Já tem idade suficiente para votar.<br>");
+}
+
+// 3. Verificar se é fim de semana
+let dia = new Date().getDay();
+switch (dia) {
+    case 0: // Domingo
+    case 6: // Sábado
+        document.write("É fim de semana!");
+        break;
+    default:
+        document.write("Bom Trabalho!");
+}
+</script>
+</body>
+</html>
