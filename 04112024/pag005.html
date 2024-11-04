@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Tente copiar este texto! </h2>
+    <h3> Use o botão do lado direito do RATO! </h3>
+    <script>
+        function botaodireito() {
+            if (event.button==2) {
+                alert('Opção desactivada')
+            }
+        }
+        document.onmousedown=botaodireito
+    </script>
+</body>
+</html>

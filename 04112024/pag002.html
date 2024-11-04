@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"</head>
+<body onload="abrir()">
+<h1 id="cursor" style="background-color:black; color:red; text-align:center"> JANELAS POP-UP  </h1>
+<input type="button" value="Abrir uma janela Pop-up" onclick="abrir2()"><br><br>
+<a href="javascript:abrir3()">Clique aqui para abrir uma nova página</a><br><br>
+<h2 onmouseover="mensagem()" style="background-color:black; color:white; text-align:center">Passe o rato aqui!</h2>
+<h2 onmouseout="multi()" style="background-color:gold; text-align:center">Não passe o rato aqui!</h2>
+<script>
+function abrir(){ window.open("http://www.sapo.pt/", "janela1", "height=300, width=400, scrollbars=yes");}
+function abrir2(){window.open("http://pplware.sapo.pt/", "janela2", "height=400, width=600, scrollbars=yes");}
+function abrir3(){window.open("http://informaticafacil.com.pt/", "janela3", "height=500, width=550, scrollbars=yes");}
+function mensagem(){
+ 	window.alert('Você passou o rato sobre o título!');
+	window.open("http://youtube.pt/", "janela4", "height=500, width=650, scrollbars=yes");}
+function multi(){
+for(var i=0; i<=20; i++){
+window.open("http://i1114.photobucket.com/albums/k528/keveri/Misc/Laughing-chimp-gif-animation.gif", i, "height=200, width=200, scrollbars=yes, screenX=200, screenY=200");}}
+document.getElementById("cursor").style.cursor = "wait";
+</script>
+</body>
+</html>

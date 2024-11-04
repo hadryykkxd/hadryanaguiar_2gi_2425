@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04112024</title>
+</head>
+<body>
+
+    <h2> A minha primeira função em JavaScript! </h2>
+    <button onclick="aminhaFuc();">Experimenta</button>
+    <p>Este exemplo chama a função que realiza uma operação e retorna o resultado: </p>
+
+    <script>
+        var asuaIdade="";
+        do
+        {
+            asuaIdade = prompt("INTRODUZA A SUA IDADE!", "AQUI POR FAVOR!");
+        }
+        while(isNaN(asuaIdade) == true);
+        document.write("Muito bem a sua idade é de " + asuaIdade + " anos!");
+        function aminhaFuc() {
+            alert("Olá a todos!");
+        }
+        function multiplicaFunc(a, b) {
+            return a * b;
+        }
+        document.getElementById("Teste").innerHTML = multiplicaFunc(5, 3);
+    </script>
+</body>
+</html>
