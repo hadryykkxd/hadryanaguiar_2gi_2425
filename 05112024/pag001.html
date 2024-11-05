@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05112024</title>
+
+    <script>
+        function obrigado() {
+            window.alert("Obrigado pela visita!")
+            window.open("http://www.wesleymissioncenter.org/images/thankyou.png", "janela");
+        }
+    </script>
+
+</head>
+<body>
+    <form onsubmit="obrigado()">
+        <fieldset>
+            <legend>Informações pessoais: </legend>
+            Nome: <br>
+            <input type="text" name="nome" value="Mickey">
+            <br>
+            Apelido: <br>
+            <input type="text" name="apelido" value="Mouse">
+            <br><br>
+        </fieldset>
+
+        <br><br>
+
+        <label for="nome_id">Nome: </label>
+        <input type="text" name="nome" placerholder="Digite o seu nomes">
+
+        <br><br>
+
+        <label for="cidade_id">Cidade: </label>
+        <input id="cidade_id" type="text" name="cidade" placeholder="Qual é a sua cidade?">
+        <input type="submit" value="Enviar">
+
+        <br><br>
+        <textarea id="comentario_id" name="comentario" rows="4" cols="50" maxlength="140"></textarea>
+
+        <br><br>
+    </form>
+</body>
+</html>

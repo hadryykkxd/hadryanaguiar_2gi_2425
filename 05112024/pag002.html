@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05112024</title>
+    <style>
+        label {
+            width: 150px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        input {
+            width: 200px;}
+        
+        .formlinha {/*Criar espaçamento entre as linhas*/
+            margin-bottom: 20px;
+        }
+
+        fieldset {
+            display: block;
+            margin-left: 20px;
+            margin-right: 200px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 5px dashed gold;
+        }
+
+        h1 {font-size: 55px;
+            text-align: center;
+            background-color: #FAFAD2;
+            color: #800000;
+            border: 8px groove chocolate;}
+    </style>
+</head>
+
+<body>
+    <div id="contact"><h1>Dados de Contacto: </h1>
+        <form method="post">
+            <fieldset>
+                <legend><h2>Dados pessoais:</h2></legend>
+
+    <div class="formlinha">
+        <label for="contactNome">Nome: </label>
+        <input name="contactNome" id="contactNome" type="text"|>
+    </div>
+
+    <div class="formlinha">
+        <label for="tlmnumero">Número telemóvel: </label>
+        <input name="tlmnumero" id="tlmnumero" type="text"|>
+    </div>
+
+    <div class="formlinha">
+        <label for="email">E-mail: </label>
+        <input name="email" id="email" type="text"|>
+    </div>
+
+    <div class="formlinha">
+        <label for="notes">Comentário: </label>
+        <textarea name="notes" cols="40" rows="6" maxlength="200"></textarea>
+    </div>
+
+    <div class="formlinha">
+        <input style="width: 100px;" type="submit" value="Enviar"|>
+    </div>
+
+    </fieldset>
+    </form>
+    </div>
+
+        </form>    
+</body>
+</html>

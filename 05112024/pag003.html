@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>*** FORMULÁRIO COM NÚMEROS ***</title>
+</head>
+<body>
+    <form>
+        Insira a avaliação (Entre 1 e 5):
+        <input type="number" name="avaliacao" min="1" max="5">
+        <br><br>
+
+        Seleciona um valor:
+        0 <input id="numero2_id" name="numero2" type="range" min="1" max="5">5
+        <br><br>
+
+        <fieldset>
+            <legend>Contactos pessoais: </legend>
+            <br>
+            <label for="email_id">Email: </label>
+            <input id="email_id" name="email" type="email"><br><br>
+
+            <label for="telefone_id">Número de telefone: </label>
+            <input id="telefone_id" name="telefone" type="tel"><br><br>
+
+            <label for="url_id">Site da empresa: </label>
+            <input id="url_id" name="url" type="url"><br><br>
+            
+            <label for="data_id">Data de nascimento: </label>
+            <input id="data_id" name="data" type="date"><br><br>
+
+            <label for="data_hora_id_id">Data/hora: </label>
+            <input id="data_hora_id_id" name="data_hora" type="datetime-local"><br><br>
+
+            <label for="mes_id">Em que mês nasceu: </label>
+            <input id="mes_id" name="mes" type="month"><br><br>
+
+            <label for="hora_id">Hora do dia: </label>
+            <input id="hora_id" name="hora" type="time"><br><br>
+
+            <label for="semana_id">Semana do Rock in Rio:</label>
+            <input id="semana_id" name="semana" type="week"><br><br>
+            </fieldset>
+            <br>
+
+        </fieldset>
+        <br>
+        <br>
+        <input id="senha_id" name="senha" type="password">
+        <input id="sim_id" name="newsletter" type="checkbox" value="sim">
+        <br>
+        <br>
+        <input id="java_id" type="ckeckbox" value="java" name="linguagens" checked> Java<br>
+        <input id="csharp_id" type="ckeckbox" value="csharp" name="linguagens"> C#<br>
+        <input id="php_id" type="ckeckbox" value="php" name="linguagens" ckecked> PHP<br>
+        <input id="ruby_id" type="ckeckbox" value="ruby" name="linguagens"> Ruby<br>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Cidades: </legend>
+            <br>
+            <input id="sp_id" name="club" type="radio" value="sao_paulo"> São Paulo<br>
+            <input id="barcelona_id" name="club" type="radio" value="barcelona"> Barcelona<br>
+            <input id="mu_id" name="club" type="radio" value="manchesterU"> Manchester United<br>
+            <input id="bdm_id" name="club" type="radio" value="bayern"> Bayern Munique<br>
+            <input id="milan_id" name="club" type="radio" value="milan"> Milan<br>
+            <br>
+            <br>
+        <input type="submit" value="Enviar">
+        </fieldset>
+
+
+
+    </form>
+    
+</body>
+</html>
