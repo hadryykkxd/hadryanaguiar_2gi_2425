@@ -1,0 +1,294 @@
+/* Define o box-sizing para todos os elementos e pseudoelementos, ajustando as bordas e o padding dentro do tamanho total do elemento */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/* Ativa o comportamento de rolagem suave, caso o usuário não tenha preferência por animações reduzidas */
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    margin: 0; /* Remove a margem padrão */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* Define a fonte padrão */
+    font-size: 1rem; /* Tamanho da fonte padrão */
+    font-weight: 400; /* Peso da fonte padrão */
+    line-height: 1.5; /* Altura da linha padrão */
+    color: #212529; /* Cor do texto */
+    background-color: #fff; /* Cor de fundo */
+    -webkit-text-size-adjust: 100%; /* Evita ajuste automático do tamanho do texto no iOS */
+    -webkit-tap-highlight-color: transparent; /* Remove o destaque ao tocar em elementos */
+}
+
+/* Estilos para linha horizontal (hr) */
+hr {
+    margin: 1rem 0; /* Espaçamento vertical */
+    color: inherit; /* Herda a cor */
+    background-color: currentColor; /* Usa a cor corrente */
+    border: 0; /* Remove a borda padrão */
+    opacity: .25; /* Torna o elemento translúcido */
+}
+
+hr:not([size]) {
+    height: 1px; /* Define a altura de 1px se o atributo size não estiver presente */
+}
+
+/* Estilos para cabeçalhos h1 a h6 */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0; /* Remove a margem superior */
+    margin-bottom: .5rem; /* Margem inferior */
+    font-weight: 500; /* Peso da fonte */
+    line-height: 1.2; /* Altura da linha */
+}
+
+/* Define o tamanho dinâmico de fontes com base na largura da tela */
+h1 { font-size: calc(1.375rem + 1.5vw); }
+@media (min-width: 1200px) { h1 { font-size: 2.5rem; } }
+h2 { font-size: calc(1.325rem + .9vw); }
+@media (min-width: 1200px) { h2 { font-size: 2rem; } }
+h3 { font-size: calc(1.3rem + .6vw); }
+@media (min-width: 1200px) { h3 { font-size: 1.75rem; } }
+h4 { font-size: calc(1.275rem + .3vw); }
+@media (min-width: 1200px) { h4 { font-size: 1.5rem; } }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/* Estilos para parágrafos */
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para abreviações com título */
+abbr[data-bs-original-title], abbr[title] {
+    text-decoration: underline dotted; /* Sublinado pontilhado */
+    cursor: help;
+    text-decoration-skip-ink: none;
+}
+
+/* Estilos para endereços */
+address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+}
+
+/* Estilos para listas ordenadas e não ordenadas */
+ol, ul {
+    padding-left: 2rem;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Remove a margem inferior de listas aninhadas */
+ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+}
+
+/* Estilos para elementos dt e dd em listas de definição */
+dt {
+    font-weight: 700;
+}
+dd {
+    margin-bottom: .5rem;
+    margin-left: 0;
+}
+
+/* Estilos para blockquote */
+blockquote {
+    margin: 0 0 1rem;
+}
+
+/* Estilos para texto em negrito */
+b, strong {
+    font-weight: bolder;
+}
+
+/* Estilos para o elemento small */
+small {
+    font-size: .875em;
+}
+
+/* Estilos para o elemento mark (marcação) */
+mark {
+    padding: .2em;
+    background-color: #fcf8e3;
+}
+
+/* Estilos para sub e sup */
+sub, sup {
+    font-size: .75em;
+    line-height: 0;
+    vertical-align: baseline;
+}
+sub {
+    bottom: -.25em;
+}
+sup {
+    top: -.5em;
+}
+
+/* Estilos para links */
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+a:hover {
+    color: #0a58ca;
+}
+
+/* Estilos para links sem href */
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Estilos para elementos de código */
+code, kbd, pre, samp {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1em;
+}
+
+/* Estilos para o elemento pre */
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+    font-size: .875em;
+}
+pre code {
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Estilos para elementos kbd */
+kbd {
+    padding: .2rem .4rem;
+    font-size: .875em;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2rem;
+}
+
+/* Estilos para o elemento figure */
+figure {
+    margin: 0 0 1rem;
+}
+
+/* Estilos para imagens e SVGs */
+img, svg {
+    vertical-align: middle;
+}
+
+/* Estilos para tabelas */
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+/* Estilos para a legenda da tabela */
+caption {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    color: #6c757d;
+    text-align: left;
+}
+
+/* Estilos para o elemento th */
+th {
+    text-align: inherit;
+}
+
+/* Estilos para bordas em células */
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+/* Estilos para label */
+label {
+    display: inline-block;
+}
+
+/* Estilos para botão */
+button {
+    border-radius: 0;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+/* Define que botão, input, select e textarea herdam estilos de fonte */
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Estilos para elemento select */
+select {
+    word-wrap: normal;
+}
+select:disabled {
+    opacity: 1;
+}
+
+/* Esconde o indicador de calendário */
+[list]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+/* Estilos para botões de tipo específico */
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+/* Define cursor pointer para botões */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+/* Ajustes para caixas de texto */
+textarea {
+    resize: vertical;
+}
+
+/* Estilos para fieldset */
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* Define estilo da legenda */
+legend {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-bottom: .5rem;
+    font-size: calc(1.275rem + .3vw);
+}
+@media (min-width: 1200px) {
+    legend { font-size: 1.5rem; }
+}
+legend+* {
+    clear: left;
+}
+
+/* Ajustes para campos de data/hora */
+::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-fields-wrapper, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-text, ::-webkit-datetime-edit-year-field {
+    padding: 0;
+}
+
+/* Estilos para elementos ocultos */
+[hidden] {
+    display: none !important;
+}
