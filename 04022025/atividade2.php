@@ -20,7 +20,7 @@
         <br>
         
         <label for="incremento">Incremento: </label>
-        <input type="number" id="incremento" name="incrimento" required>
+        <input type="number" id="incremento" name="incremento" required>
         <input type="submit" value="Enviar">
     </form>
 
@@ -31,27 +31,20 @@
     $numeroI = $_POST["numeroI"];
     $numeroF = $_POST["numeroF"];
 
-    // if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    //     $numero = $_POST["numero"];
-    //     for ($i=1; $i<=$numero; $i++) {
-    //         echo "<h2> $i </h2>" ;
-    //     }
-    //     }
-
     switch ($incremento) {
         case 1:
-            for ($i=$numeroI; $i=$numeroF; $i++) {
+            for ($i=$numeroI; $i <= $numeroF; $i++) {
                 echo "<h2> $i </h2>" ;
             }
             break;
 
         case 2:
-            for ($i=$numeroI; $i<=$numeroF; $i+2) {
+            for ($i=$numeroI; $i <= $numeroF; $i+=2) {
                 echo "<h2> $i </h2>" ;
             }
             break;
         case 5:
-            for ($i=$numeroI; $i<=$numeroF; $i+5) {
+            for ($i=$numeroI; $i <= $numeroF; $i+=5) {
                 echo "<h2> $i </h2>" ;
             }
             break;
