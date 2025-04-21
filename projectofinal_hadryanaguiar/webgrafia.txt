@@ -1,0 +1,26 @@
+Sites:(Templates, leitura de JS, CSS, HTML)
+https://mobirise.com/es/
+https://nicepage.com/html-templates
+https://templatemo.com/
+https://www.w3schools.com/w3css/w3css_templates.asp
+https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
+https://www.freecodecamp.org/espanol/news/aprende-html-y-css-curso-desde-cero/
+https://web.dev/learn/css?hl=es
+https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics
+https://lenguajecss.com/
+https://www.dreamhost.com/blog/es/aprende-css/
+https://developer.mozilla.org/es/docs/Learn/JavaScript
+https://www.aprendejavascript.dev/
+https://aprendejavascript.org/
+https://es.javascript.info/
+
+Links do Youtube:(Tutorial de JS, CSS, HTML)
+https://youtu.be/MJkdaVFHrto?si=xmmudrl_cL0vdTvg
+https://www.youtube.com/playlist?list=PL2Fdisxwzt_cajoGVWTx44wM6Ht09QJ3A
+https://www.youtube.com/playlist?list=PLhSj3UTs2_yVHt2DgHky_MzzRC58UHE4z
+https://www.youtube.com/playlist?list=PLJubkp8BnTJtjPikTnv8JoYWKFjUu7bRH
+https://youtu.be/3yM5uXp-T_0?si=Eb0oMsG0rP254Na4
+https://youtu.be/wZniZEbPAzk?si=jKtOFWwKpvlxgXn0
+https://youtu.be/BKATrAAWrRo?si=X8ndvF-EmTdPw9GL
+https://www.youtube.com/playlist?list=PLROIqh_5RZeDbvISffzihyxzqJBt_z3-Z
+https://youtu.be/TlJbu0BMLaY?si=ZTXLBxG_4aBIdOfq
