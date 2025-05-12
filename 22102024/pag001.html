@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEMPLO 3 - O TEU NOME</title>
+    <script type="text/javascript">
+        alert("Seja bem vindo(a) à minha página com JavaScript!");
+    </script>
+</head>
+<body>
+    <h1> A minha primeira página com JavaScript!!! </h1>
+    <h1>De que é capaz o JavaScript?</h1>
+    <h1>O JavaScript pode alterar imagens!</h1>
+    <h2>Vamos fazer um jogo!</h2>
+    <h3>Clica em cima das imagens para saber qual é a cidade!</h3>
+    <img id="myImage1" onclick="changeImage1()" src="lisboa1.jpg" width="400" height="400">
+    <script>
+        function changeImage1() {
+            var image = document.getElementById('myImage1');
+            if (image.src.match("lisboa2")) {
+                image.src = "lisboa.jpg";
+            } else {
+                image.src = "lisboa1.jpg";
+            }
+        }
+    </script>
+    <p id="demo">O JavaScript pode alterar o conteúdo de HTML</p>
+    <button 
+    type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">
+    Clica aqui!
+    </button>
+    <button 
+    type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Clica no botão para saberes a Data e a Hora!.
+    </button>
+    <p id="demo"></p>
+    <a href="http://www.w3c.org/" target="_blank"
+    onclick="alert('Obrigado por visitar o W3C!')">Visite o W3C</a>
+
+    <h1>Testando as potencialidades do JavaScript!</h1>
+    <p id="demo">O JavaScript pode mudar o estilo de um elemento HTML.</p>
+    <script>
+        function myFuction() {
+            var x = document.getElementById("demo");
+            x.style.fontSize = "25px";
+            x.style.color = "red";
+        }
+    </script>
+    <button type="button" onclick="myFuction()">Clica aqui!</button>
+
+    <h1>Abracadabra!</h1>
+    <p>Ao clicar no botão o texto desaparece!!!</p>
+    <button type="button" onclick="document.write()">Experimente!</button>
+
+    <h1>Continua a interação com o utilizador!</h1>
+    <script>
+        confirm("Olá a todos!");
+        confirm("Prontos para aprender JavaScript?");
+    </script>
+
+    <h1>Continua a interação com o Utilizador - Parte II!</h1>
+    <script>
+        prompt("Qual é o seu nome?");
+        prompt("Introduza a sua idade, por favor.");
+    </script>
+</body>
+</html>

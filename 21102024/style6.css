@@ -1,0 +1,14 @@
+#container {margin: 0 auto; width: 600px; background: #fff;}
+
+#header {background: #ccc; padding: 20px;}
+#header h1 {margin: 0;}
+
+#navigation {float: left; width: 600px; background: #333;}
+#navigation ul li {margin: 0; padding: 0;}
+#navigation li a {list-style-type: none; display: inline;}
+#navigation li a:hover {background: #383;}
+
+#content {clear: left; padding: 20px;}
+#content h2 {color: #000; font-size: 160%; margin: 0 0 .5em;}
+
+#footer {background: #ccc; text-align: right; padding: 20px; height: 1%;}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        h1 {font-size: x-large; color: red}
+        h2 {font-size: large; color: blue}
+        body {background-color: #e293fa}
+    </style>
+    <title>04102024</title>
+</head>
+<body>
+<h1>
+    Titulo centrado
+</h1>
+<h2>
+<p>bla bla bla</p>
+</h2>
+
+    <form action="envia.html">
+        Nome: <br>
+       <input type="text" name="firstname"><br>
+       Apelido: <br>
+       <input type="text" name="lastname"><br>
+       Senha: <br>
+       <input type="password" name="password">
+       <br>
+       <input type="radio" name="gender" value="male" checked>Masculino<br>
+       <input type="radio" name="gender" value="female">Feminino<br>
+       <input type="radio" name="gender" value="other">Outro<br>
+        <input tupe="ckeckbox" name="promo_email" value="accept">Pretendo receber Emails promocionais.<br>
+        <input type="ckeckbox" name="terms" value="read">Li os termos e condições!
+        <br>
+        <input type="button" onclick="alert('Hello world')" value="click me:"><br>
+<br>
+    Selecione a cor de perfil: <input type="color" name="favcolor">
+<br>
+    Data de nascimento: <input type="date" name="bday" min="1999-10-10" max="2024-01-01">
+<br>
+    Emails: <input type="email" name="email">
+<br>
+    Selecione um ficheiro: <input type="file" name="myFile" accept="image/png, image/jpeg" multiple>
+<br>
+    Quantidade de bolachas: <input type="number" name="quantity" min="1" max="5">
+<br>
+    Indique o seu nivel de satisfação <input type="range" step="1" name="points" min="0" max="10">
+<br>
+<textarea rows="4" cols="50"> Text super gigante! </textarea>
+<br>
+<select id="fruit">
+    <option value="apple">Maça</option>
+    <option value="pear">Pera</option>
+    <optgroup label="Frutos vermelhos">
+      <option value="strawberry">Morango</option>
+      <option value="raspberry">Framboesa</option>
+    </optgroup>
+    <optgroup label="Frutos secos">
+      <option value="peanut">Amendoim</option>
+      <option value="chestnut">Castanha</option>
+    </optgroup>
+</select>
+<br>
+<fieldset>
+    <legend>Utilizador:</legend>
+    Nome: <input type="text"><br>
+    Data de nascimento: <input type="date">
+<br>
+<p> Donwload do arquivo 1: <progress value="85" max="100">85%</progress> </p>
+<br>
+<input list="browsers"/>
+<datalist id="browser"/>
+    <option value="Chrome"/>
+    <option value="Firebox"/>
+    <option value="Internet Explrorer"/>
+    <option value="Opera"/>
+    <option value="Safari"/>
+</datalist>
+<input type="submit" value="submit">
+<br>
+<input type="reset">
+    </form>
+</body>
+</html> 

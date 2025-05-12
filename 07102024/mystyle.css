@@ -1,0 +1,16 @@
+/* 
+    h1 {font-family:"Times New Roman";
+    font-size: x-large; color: navy; margin-left: 20px}
+    h2 {font-size: large; color: blue}
+    body {background-color: lightblue}
+    p{color: red; text-align: center;}
+    body{background-color: pink; } 
+*/
+/* 
+    body {background-color: pink;}
+    h1 {font-size: 36pt;}
+    h2 {color: white;}
+    p{margin-left: 50px;} 
+*/
+
+h1, h2, p{text-align: center; color:red}

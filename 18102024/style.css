@@ -1,0 +1,31 @@
+.quadrado{width:60px; height:60px;}
+.vermelho{background-color: red;}
+.verde{background-color: green;}
+.azul{background-color: blue;}
+.relativo{position: absolute; top: 20px; left: 20px;}
+
+div.relative {position: relative; width: 400px; height: 200px; border: 3px solid #73AD21;}
+div.absolute {position: absolute; top: 80px; right: 0; width: 200px; height: 100px; border: 3px solid #73AD21;}
+
+div.fixed {
+    position: fixed; 
+    bottom: 0; 
+    right: 0; 
+    width: 300px; 
+    height: 50px; 
+    border: 5px solid red;
+    background-color: black; 
+    color: white; 
+    font-size: 20px; 
+    padding: 5px;
+}
+
+body {margin: 0px; font-family: Verdana;}
+p {text-align: justify;}
+
+ul {list-style-type: none; margin: 0; padding: 0; background-color: #333; position: fixed; top: 0px; width: 100%;}
+li {float:left;}
+li a {display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
+li a:hover {background-color: #e00;}
+div {padding: 5px; margin-top: 5px; margin-top: 40px; background-color: #55F5F5; height: 1500px;}
+img {float: right; margin: 0 0 10px 10px;}

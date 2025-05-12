@@ -1,0 +1,26 @@
+<html>
+<head>
+	
+	<title>Meu site</title>
+	<style>
+		body { background-color: lightblue; }
+	</style>
+</head>
+<body>
+	
+	<h1><big> Titulo grandezinho </big></h1>
+	<p><b>Teste em negrito</b>, <i>Teste em itálico</i>, <u>Teste sublinhado</u></p>
+	<p><sub>abaixo</sub>, <sub>em cima</sup></p>
+	
+	<p><small>Texto pequeneninho</small></p>
+	<p>Linha 1<br>Linha 2</p>
+	<pre>
+		herobrine esta te vendo lol
+	</pre>
+	
+	<p style="font-family: Arial; color: red; font-size: 20px;">
+		herobrine games
+	</p>
+	
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* body {margin: 0px; font-family: verdana;}
+p {text-align: justify;}
+ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #333; 
+    position: fixed;
+    top: 0px; 
+    width: 100%;
+}
+li {float: left;}
+li a {
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+li a:hover {background-color: #e00;}
+div {
+    padding: 5px; 
+    margin-top: 40px; 
+    background-color: #F5F5F5; 
+    height: 1500px;
+}
+img {
+    float: right; 
+    margin: 0 0 10px 10px;
+}
+
+#dez_copas {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+#valete_copas {
+    position: absolute;
+    left: 115px;
+    top: 115px;
+    z-index: 2;
+}
+#dama_copas {
+    position: absolute;
+    left: 130px;
+    top: 130px;
+    z-index: 3;
+}
+#rei_copas {
+    position: absolute;
+    left: 145px;
+    top: 146px;
+    z-index: 4;
+}
+#as_copas {
+    position: absolute;
+    left: 160px;
+    top: 160px;
+    z-index: 5;
+} */
